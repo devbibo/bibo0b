@@ -26,8 +26,34 @@ const encoderMap = {
     'y': 'oz',
     'z': 'pA',
     ' ': 'qB',
+    '!': 'rC',
+    '@': 'sD',
+    '#': 'tE',
+    '$': 'uF',
+    '%': 'vG',
+    '^': 'wH',
+    '&': 'xI',
+    '*': 'yJ',
+    '(': 'zK',
+    ')': 'AM',
+    '_': 'BN',
+    '-': 'CO',
+    '+': 'DP',
+    '=': 'EQ',
+    '{': 'FR',
+    '}': 'GS',
+    '"': 'HT',
+    "'": 'IU',
+    ':': 'JV',
+    ';': 'KW',
+    '?': 'LX',
+    '<': 'MY',
+    '>': 'NZ',
+    ',': 'OA',
+    '.': 'PB',
   };
-
+  
+  
   const decoderMap = {};
   for (const key in encoderMap) {
     const value = encoderMap[key];
