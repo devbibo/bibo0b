@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bibo Decoder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bibo Decoder</h1>
+
+    <div class="container">
+      <div>
+        <textarea id="input" placeholder="Enter text to encode or decode"></textarea>
+        <br>
+        <button id="btnEncode" onclick="encode()">Encode</button>
+        <button onclick="decode()">Decode</button>
+      </div>
+      <div>
+        <textarea id="output" placeholder="Result"></textarea>
+        <br>
+        <button id="btnCopy" onclick="copyToClipboard()">Copy</button>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

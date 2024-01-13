@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  #input {
+    width: 300px;
+    height: 100px;
+    resize: none;
+  }
+
+  #output {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    pointer-events: none;
+  }
+
+  #btnEncode {
+    margin-top: 20px;
+  }
